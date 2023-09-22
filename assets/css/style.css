@@ -1,4 +1,5 @@
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -81,7 +82,7 @@ h6 {
   display: block;
   width: 120px;
   border: 5px solid #149ddd;
-  box-shadow:#0072b1;
+  box-shadow: 5px 5px 40px #149ddd
 }
 
 #header .profile h1 {
@@ -120,9 +121,13 @@ h6 {
   color: #fff;
   text-decoration: none;
 }
+#header .profile .social-links .linkedin:hover {
+  background: #0072b1;
 
-#header .profile .social-links .linked:hover{
-background: #0072b1;
+}
+#header .profile .social-links .email:hover {
+  background: #FF5733;
+  
 }
 #main {
   margin-left: 300px;
