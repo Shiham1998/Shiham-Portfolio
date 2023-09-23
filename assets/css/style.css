@@ -379,7 +379,12 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.mobile:hover,
+.email:hover,
+.email a:hover {
+  color: #149ddd !important;
+  text-decoration: none !important;
+}
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
